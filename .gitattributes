@@ -1,0 +1,14 @@
+# 设置非Go语言文件为vendor状态，GitHub将忽略这些文件的语言统计
+*.h linguist-vendored
+*.hpp linguist-vendored
+*.c linguist-vendored
+*.cpp linguist-vendored
+*.java linguist-vendored
+*.js linguist-vendored
+*.py linguist-vendored
+*.yml linguist-vendored
+*.yaml linguist-vendored
+*.md linguist-documentation
+
+# 确保 .go 文件被正确识别
+*.go linguist-language=Go 
